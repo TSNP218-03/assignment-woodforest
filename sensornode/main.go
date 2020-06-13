@@ -22,8 +22,7 @@ func main() {
 		// c.Write([]byte(text))
 		// log.Println(text)
 
-		floatnum := rand.Float64()
-		c.Write([]byte(fmt.Sprintf("%f", floatnum)))
+		floatnum := rand.Float64() 	num)))
 		log.Println(floatnum)
 		time.Sleep(2 * time.Second) // Timeout for 2 second
 	}
